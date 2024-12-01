@@ -1,0 +1,172 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #fff;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  ul {
+    list-style-type: none;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #000;
+  }
+  .logo{
+    font-family: BEYNO;
+    font-size: 2rem;
+  }
+  .nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  .nav-links a:hover {
+    color: #ffd54f;
+  }
+  
+  /* Hero Section */
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 0 20px;
+    background-color: #1a1a1a;
+  }
+  .hero-content {
+    flex: 0.7;
+  }
+  .hero-content h1 {
+    font-size: 3rem;
+    color: #ffd54f;
+  }
+  .hero-content p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  .hero-content .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffd54f;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .hero-content .btn:hover{
+    background-color: #10e00c;
+    color: whitesmoke;
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Initial shadow */
+  }
+
+  .hero-image img {
+    width: 450px;
+    margin-right: 70px;
+    border-radius: 50%;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #000;
+  }
+  #about h2 {
+    color: #ffd54f;
+  }
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .about-image img {
+    width: 200px;
+    border-radius: 10%;
+    transform: scaleX(-1);
+    margin-left: 30px;
+  }
+
+  /* Style the about card */
+.about-details ul {
+    height: 30vh;
+    align-content: center;
+    padding: 10px 30px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 1%;
+    text-align: left;
+    color: #fff;
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Initial shadow */
+  }
+.about-details p {
+    height: 5vh;
+    align-content: center;
+    padding: 10px 30px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 50px;
+    text-align: left;
+    color: #fff;
+    transition: all 0.3s ease; /* Smooth transition */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Initial shadow */
+  }
+  
+  /* Add 3D effect and color changes on hover */
+  .about-details ul:hover {
+    transform: translateY(-10px) scale(1.05); /* Lift and enlarge */
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow for 3D */
+    background-color: #f9f9f9; /* Bright white shade */
+    color: #000; /* Change text color to dark */
+  }
+  .about-details p:hover {
+    transform: scale(1.05); /* Lift and enlarge */
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow for 3D */
+    background-color: #ffeb54; /* Bright white shade */
+    color: #000; /* Change text color to dark */
+  }
+
+  
+  
+  
+  /* Skills Section */
+  #skills {
+    padding: 50px 80px;
+    background-color: #202020;
+    margin: 20px 20px;
+    border-radius: 50px;
+  }
+  .skill {
+    margin-bottom: 20px;
+  }
+  .skill-bar {
+    height: 10px;
+    background: #333;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .skill-fill {
+    height: 100%;
+    background-color: #ffd54f;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fefbfb;
+  }
+  
